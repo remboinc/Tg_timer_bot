@@ -21,7 +21,11 @@ def notify_progress(secs_left, message_id, time):
     bot.update_message(tg_chat_id, message_id, progressbar)
 
 
+<<<<<<< HEAD
 def render_progressbar(total, iteration, prefix='', suffix='', length=13, fill='█', zfill='░'):
+=======
+def render_progressbar(total, iteration, prefix='', suffix='', length=30, fill='█', zfill='░'):
+>>>>>>> 3a625f990b0640aeac233f53e50103f6e337378e
     iteration = min(total, iteration)
     percent = "{0:.1f}"
     percent = percent.format(100 * (iteration / float(total)))
