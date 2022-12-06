@@ -12,7 +12,7 @@ Bot will inform you if the time is up and offer to start a new timer.
     
     На сколько поставить таймер?
 
-## How to install
+## How to start
 Clone the project:
 
     git clone https://github.com/remboinc/Tg_timer_bot
@@ -25,6 +25,10 @@ Start virtual environment:
     
     . env/bin/activate
     
+Before start to deploy install requirements:
+
+    pip install -r requirements.txt
+    
 Create an `.env` file and declare two global environment variables:
 
     TG_CHAT_ID=392681111
@@ -32,3 +36,7 @@ Create an `.env` file and declare two global environment variables:
 
 Get a token from the [Bot Father](https://t.me/BotFather) and write it to a variable `TG_TOKEN`. 
 Find out your telegram-id, for example, using [IDBot](https://t.me/username_to_id_bot) and enter it into a variable `TG_CHAT_ID`.
+
+To run the script, enter the command:
+
+    python main.py
