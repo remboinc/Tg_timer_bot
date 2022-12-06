@@ -13,6 +13,18 @@ Bot will inform you if the time is up and offer to start a new timer.
     На сколько поставить таймер?
 
 ## How to install
+Clone the project:
+
+    git clone https://github.com/remboinc/Tg_timer_bot
+
+Create a virtual environment on directory project:
+
+    python3.10 -m venv env
+    
+Start virtual environment:
+    
+    . env/bin/activate
+    
 Create an `.env` file and declare two global environment variables:
 
     TG_CHAT_ID=392681111
